@@ -543,10 +543,10 @@ int main() {
 	//heapSort(arr, size);
 	//mergeSort(arr, size);
 
-	//MGraph g;
-	//createGraphNew(g, false);
-	//bool hasCycle = checkCycleFrTopo(&g); //checkCycleFrDfs(&g);
-	//std::cout << "图是否有环：" << hasCycle << std::endl;
+	MGraph g;
+	createGraphNew(g, false);
+	bool hasCycle = checkCycleFrTopo(&g); //checkCycleFrDfs(&g);
+	std::cout << "图是否有环：" << hasCycle << std::endl;
 
 	GraphAdjList ga;
 	createALGraph(&ga, true);
